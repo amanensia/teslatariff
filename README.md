@@ -1,9 +1,9 @@
 # teslatariff
-Sample YAML for pushing a bespoke tariff to HA Powerwalls via Teslemetry
+Sample YAML for pushing an arbitrary complex bespoke tariff to HA Powerwalls via Teslemetry
 You will require a Teslemetry account, and the Teslemetry HA integration.
 This works with the Tesla Fleet HA integration.  Other Tesla API integrations may require tweaks to the code.
 Notes:
-- Enter your Teslemetry HA ID in the third line
+- enter your Teslemetry HA ID in the third line
 - update OFF_PEAK, PEAK and MID_PEAK to the rates in £ for each rate type
 - update the periods blocks to allocate all time periods to one of the rate types
 - rows after sell_tariff refer to export rates; rows above that are import rates
